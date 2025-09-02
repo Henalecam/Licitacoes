@@ -1,0 +1,1 @@
+worker: python -m app.main scrape --pages 2 --output ./data/licitacoes.json --loop --loop-interval 900
